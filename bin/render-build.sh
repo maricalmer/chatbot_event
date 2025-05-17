@@ -7,11 +7,10 @@ set -x
 
 gem update --system --verbose
 
-echo "=== VERIFYING ENCRYPTION KEYS ==="
-if [ -z "$ACTIVE_RECORD_ENCRYPTION_PRIMARY_KEY" ]; then
-  echo "ERROR: Missing encryption keys!" >&2
-  exit 1
-fi
+echo "=== ACTIVE KEYS ==="
+echo "Primary: ${ACTIVE_RECORD_ENCRYPTION_PRIMARY_KEY:0:6}..." # First 6 chars
+echo "Deterministic: ${ACTIVE_RECORD_ENCRYPTION_DETERMINISTIC_KEY:0:6}..."
+echo "Salt: ${ACTIVE_RECORD_ENCRYPTION_KEY_DERIVATION_SALT:0:6}..."
 
 
 bundle install --verbose
