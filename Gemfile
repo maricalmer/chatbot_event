@@ -54,6 +54,7 @@ gem "sassc-rails"
 gem "ruby-openai"
 gem "solid_cable", "~> 1.0.3"
 gem "solid_queue"
+gem 'neighbor'
 
 group :development, :test do
   gem "dotenv-rails"
