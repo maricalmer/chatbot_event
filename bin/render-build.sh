@@ -1,13 +1,16 @@
 #!/usr/bin/env bash
 # exit on error
 set -o errexit
-gem update --system
-bundle install
-bundle exec rails assets:precompile
-bundle exec rails assets:clean
 
-# If you're using a Free instance type, you need to
-# perform database migrations in the build command.
-# Uncomment the following line:
+set -x
 
-bundle exec rails db:migrate
+
+gem update --system --verbose
+bundle install --verbose
+echo "=== PRECOMPILING ASSETS ==="
+bundle exec rails assets:precompile --trace
+echo "=== CLEANING ASSETS ==="
+bundle exec rails assets:clean --trace
+echo "=== RUNNING MIGRATIONS ==="
+bundle exec rails db:migrate --trace
+
