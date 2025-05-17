@@ -13,7 +13,7 @@ echo "Deterministic: ${ACTIVE_RECORD_ENCRYPTION_DETERMINISTIC_KEY:0:6}..."
 echo "Salt: ${ACTIVE_RECORD_ENCRYPTION_KEY_DERIVATION_SALT:0:6}..."
 
 
-bundle install --verbose
+bundle check || bundle install
 echo "Verifying encryption configuration..."
 bundle exec rails runner 'puts "Encryption config:", ActiveRecord::Encryption.config.inspect'
 echo "=== PRECOMPILING ASSETS ==="
