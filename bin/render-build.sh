@@ -6,6 +6,8 @@ set -x
 
 
 gem update --system --verbose
+echo "Verifying encryption configuration..."
+bundle exec rails runner 'puts "Encryption config:", ActiveRecord::Encryption.config.inspect'
 bundle install --verbose
 echo "=== PRECOMPILING ASSETS ==="
 bundle exec rails assets:precompile --trace
