@@ -23,12 +23,6 @@ Oscar is developed with Ruby and supported by the Rails framework. It follows th
 
 ## Run Locally
 
-Get an API key from OpenAI
-
-```bash
-  echo OPENAI_ACCESS_TOKEN=YOUR_API_KEY > .env
-```
-
 Clone the project
 
 ```bash
@@ -40,6 +34,12 @@ Go to the project directory and remove git logs
 ```bash
   cd my-project
   rm -rf .git
+```
+
+Get an API key from OpenAI
+
+```bash
+  echo OPENAI_ACCESS_TOKEN=YOUR_API_KEY > .env
 ```
 
 Install dependencies
