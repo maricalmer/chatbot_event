@@ -27,7 +27,7 @@ class ChatbotJob < ApplicationJob
   def questions_formatted_for_openai
     questions = @question.user.questions
     results = []
-    system_text = "You are an assistant for a conference website. The topic of the conference is deep tech and Europe. 1. Always say the name of the event. 2. If you don't know the answer, you can say 'I don't know'. If you don't have any events at the end of this message, say we don't have that.  Here are the events you should use to answer the user's questions: "
+    system_text = "You are an assistant for the Web Summit website, the world's largest tech conference. If you don't know the answer, you can say 'I don't know'. If you don't have any events at the end of this message, say we don't have that.  Here are the events you should use to answer the user's questions: "
     nearest_events.each do |event|
       system_text += "** EVENT #{event.id}: title: #{event.title}, description: #{event.description}, start time: #{event.start_time}, end time: #{event.end_time} **"
     end
