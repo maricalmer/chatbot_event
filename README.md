@@ -19,7 +19,7 @@ Oscar is developed with Ruby and supported by the Rails framework. It follows th
 
 ## Ruby gems (non exhaustive)
 
-[![neighbor](https://img.shields.io/badge/neighbor-0.5.2-red.svg)](https://rubygems.org/gems/neighbor) [![simple_form](https://img.shields.io/badge/simple_form-5.1.0-red.svg)](https://rubygems.org/gems/simple_form) [![pg_search](https://img.shields.io/badge/pg_search-2.3.5-red.svg)](https://rubygems.org/gems/pg_search) [![solid_cable](https://img.shields.io/badge/solid_cable-3.0.8-red.svg)](https://rubygems.org/gems/solid_cable) [![solid_queue](https://img.shields.io/badge/solid_queue-1.1.5-red.svg)](https://rubygems.org/gems/solid_queue) [![ruby-openai](https://img.shields.io/badge/ruby--openai-8.1.2-red.svg)](https://rubygems.org/gems/ruby-openai)
+[![neighbor](https://img.shields.io/badge/neighbor-0.5.2-red.svg)](https://rubygems.org/gems/neighbor) [![simple_form](https://img.shields.io/badge/simple_form-5.1.0-red.svg)](https://rubygems.org/gems/simple_form) [![solid_cable](https://img.shields.io/badge/solid_cable-3.0.8-red.svg)](https://rubygems.org/gems/solid_cable) [![solid_queue](https://img.shields.io/badge/solid_queue-1.1.5-red.svg)](https://rubygems.org/gems/solid_queue) [![ruby-openai](https://img.shields.io/badge/ruby--openai-8.1.2-red.svg)](https://rubygems.org/gems/ruby-openai)
 
 ## Run Locally
 
