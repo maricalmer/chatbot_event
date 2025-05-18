@@ -4,7 +4,7 @@
 
 The core function of the AI assistant is to answer questions regarding the different talks and events of the Web Summit by using Retrieval-Augmented Generation (RAG) which stores information in a vector database. A registered user can ask about:
 
-- the agenda <img align="right" src="https://res.cloudinary.com/dbpv82leg/image/upload/c_scale,w_400/v1747597145/Screenshot_2025-05-18_at_21.13.06_a7ulht.png" />
+- the agenda <img align="right" src="https://res.cloudinary.com/dzaz6s9ar/image/upload/v1747597145/Screenshot_2025-05-18_at_21.13.06_a7ulht.png" />
 - startups
 - VCs
 - corporates
