@@ -1,12 +1,35 @@
-.navbar-lewagon {
+.navbar-branded {
   justify-content: space-between;
   background: white;
+  padding: 0.5rem 1.75rem;
+  border-bottom: 1px solid rgba(246, 246, 247, 1);
 }
 
-.navbar-lewagon .navbar-collapse {
+.navbar-branded .navbar-collapse {
   flex-grow: 0;
 }
 
-.navbar-lewagon .navbar-brand img {
-  width: 40px;
+.navbar-branded .navbar-brand img {
+  max-height: 4rem;
+  max-width: 15rem;
+}
+
+.btn-login {
+  padding: 0.5rem 0.75rem;
+  border: 1px solid rgba(203, 25, 119, 1);
+  background-color: rgba(203, 25, 119, 1);
+  border-radius: 0.25rem;
+  font-weight: 600;
+  transition: 0.25s ease-out;
+  font-size: 0.875rem;
+  line-height: 0.875rem;
+}
+
+.btn-login .nav-link {
+  color: rgba(255, 255, 255, 1);
+}
+
+.btn-login:hover {
+  background-color: rgba(184, 14, 90, 1);
+  border: 1px solid rgba(184, 14, 90, 1);
 }

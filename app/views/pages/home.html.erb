@@ -1,2 +1,12 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<div class="home-section">
+  <div class="home-banner">
+    <h1 class="home-title">Web Submmit 2024</h1>
+    <p class="home-subtitle">Introducing Oscar—your go-to chatbot for information on all the talks at the event.</p>
+    <div class="btn-questions btn-banner">
+      <%= link_to "Chat with Oscar!", new_user_session_path, class: "nav-link" %>
+    </div>
+  </div>
+  <div class="img-wrapper">
+    <img class="img-home" src="https://websummit.com/wp-media/2024/11/54133374805_c24a6cbeb2_o-scaled.jpg">
+  </div>
+</div>

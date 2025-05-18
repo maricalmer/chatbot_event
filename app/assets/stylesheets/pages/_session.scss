@@ -1,0 +1,35 @@
+.session-box {
+  border: 1px solid #f6f6f7;
+  padding: 5rem;
+  margin: auto;
+  margin-top: 5rem;
+  width: 90%;
+}
+
+.form-actions-session {
+    padding-bottom: 1.5rem;
+}
+
+.btn-login-form {
+    padding: 0.5rem 0.75rem;
+    border: 1px solid rgba(0, 132, 132, 1);
+    background-color: rgba(0, 132, 132, 1);
+    color: rgba(255, 255, 255, 1);
+    border-radius: 0.25rem;
+    font-weight: 600;
+    transition: 0.25s ease-out;
+    font-size: 0.875rem;
+    line-height: 0.875rem;
+}
+
+.btn-login-form:hover {
+  background-color: rgba(4, 97, 91, 1);
+  border: 1px solid rgba(4, 97, 91, 1);
+  color: rgba(255, 255, 255, 1);
+}
+
+@media (min-width: 768px) {
+  .session-box {
+      width: 50%;
+  }
+}
