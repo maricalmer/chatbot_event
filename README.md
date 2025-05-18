@@ -26,7 +26,7 @@ Oscar is developed with Ruby and supported by the Rails framework. It follows th
 Clone the project
 
 ```bash
-  git clone https://github.com/maricalmer/infamous-berlin.git my-project
+  git clone https://github.com/maricalmer/chatbot_event.git my-project
 ```
 
 Go to the project directory and remove git logs
